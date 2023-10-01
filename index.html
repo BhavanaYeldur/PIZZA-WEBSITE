@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-style: oblique;
+            letter-spacing: 5px;
+            text-align: center;
+            text-decoration: overline;
+            text-shadow: 0px 0px 10px orangered;
+            animation-name: blink;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+        }
+        a{
+            color: aliceblue;
+            text-decoration: none;
+            font-size: 20px;
+
+        }
+        a:hover{
+            color: brown;
+            text-decoration: underline;
+            
+        }
+        .aa:hover{
+            background-color: burlywood;
+        }
+        .aa{
+            
+        text-align: center;
+        }
+        #img{
+            opacity: 0.5;
+        }
+        #img:hover{
+            /* transform: rotate(180deg); */
+            transition: all 3s;
+            transform: scale(1.2);
+            opacity: 1;
+            border-style: solid;
+            border-width: 5px;
+            border-color: blueviolet;
+            box-shadow: 0px 0px 10px blueviolet;
+
+        }
+        body{
+            background-image: url(4.pizza.jpeg);
+            background-repeat: no-repeat;
+            background-size:  100% 100%;
+            background-attachment: fixed;
+        
+        }
+        p{
+            color: brown;
+            line-height: 20px;
+            text-align: justify;
+        }
+        @keyframes blink{
+            0%{
+                opacity: 0.3;
+            }
+            10%{
+                color: blueviolet;
+            }
+        }
+    </style>
+</head>
+<body>
+    <table border="0" width="80%" bgcolor="black" align="center">
+        <tr height="90px">
+            <td width="10%"><img src="pizza logo.png" height="90px" width="100%"></td>
+            <td width="60%"><h1>Simple Pizza Hut Website</h1></td>
+            <td width="10%" class="aa"><a href="#">HOME</a></td>
+            <td width="10%" class="aa"><a href="#">Gallery</a></td>
+            <td width="10%" class="aa"><a href="#">Contact</a></td>
+        </tr>
+    </table>
+    <table border="0" width="80%" align="center">
+        <tr height="180px">
+            <td><img src="1.pizza.jpg" height="180px" width="100%"></td>
+        </tr>
+    </table>
+    <table border="0" width="80%" align="center" bgcolor="white" style="opacity: 0.5;">
+        <tr height="180px">
+            <td width="60%"><p>Pizza Hut is an American multinational restaurant chain and international franchise founded in 1958 in Wichita, Kansas by Dan and Frank Carney.</p> 
+     <td width="40%"><img src="3.pizza.webp" height="180px" width="100%"></td>
+        </tr>
+    </table>
+    <table border="0" width="80%" align="center"  cellspacing="10" cellpadding="10" bgcolor="white">
+        <tr height="180px">
+            <td width="25%"><img src="2.pizza.jpg" height="180px" width="100%" id="img"></td>
+            <td width="25%"><img src="2.pizza.jpg" height="180px" width="100%" id="img"></td>
+            <td width="25%"><img src="2.pizza.jpg" height="180px" width="100%" id="img"></td>
+            <td width="25%"><img src="2.pizza.jpg" height="180px" width="100%" id="img"></td>
+
+        </tr>
+      
+        <tr height="180px">
+            <td width="25%"><img src="2.pizza.jpg" height="180px" width="100%"></td>
+            <td width="25%"><img src="2.pizza.jpg" height="180px" width="100%"></td>
+            <td width="25%"><img src="2.pizza.jpg" height="180px" width="100%"></td>
+            <td width="25%"><img src="2.pizza.jpg" height="180px" width="100%"></td>
+
+        </tr>
+    </table>
+    <table border="0" width="80%" align="center" bgcolor="white">
+        <tr height="100px'">
+            <td align="center"><h1>Copyrights Reserved!!!></h1></td>
+        </tr>
+    </table>
+</body>
+</html>
